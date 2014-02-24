@@ -1,0 +1,259 @@
+/*-- The main stylesheet for most of the site, in order to edit bootstrap's standards --*/
+
+body {
+  
+   background-color: #0e0f10;
+}
+
+.footer-space {
+  height: 4em;
+}
+
+.img-width  {
+    
+    width: 30%;
+}
+
+.img-width-2  {
+    
+    width: 50%;
+}
+
+.img-width-3  {
+    width: 80%;
+}
+
+.starter-template {
+    
+    padding: 10px 15px;
+    text-align: center;
+}
+
+.float-right  {
+   
+    float:right;
+  
+}
+
+.positioning  {
+    
+    position: absolute;
+    right: 5%;
+    top: 15%;
+}
+
+.positioning-2  {
+    
+   position: absolute;
+   left: 2%;
+   top: 15%;
+}
+
+.positioning-3  {
+    
+    position: absolute;
+    left: 1%;
+    top: 1%;
+}
+
+.padding {
+    
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.top-padding  {
+    
+    padding-top: 4%;
+}
+
+.top-padding-2 {
+  padding-top: 1%;
+}
+
+.headerbox  {
+    
+    background-color: #c9c9c9;
+}
+.main-textbox-top { 
+    
+    width: 40%;
+}
+
+.main-textbox-bottom  { 
+    
+    width: 40%;
+    background-color: #0e0f10;
+    opacity: 0.7;
+    box-shadow: 2px 2px 0px #000000;
+}
+
+.shadow {
+    
+    box-shadow: 2px 2px 0px #000000;
+}
+
+.textbox-bottom-text  {
+    
+    color: #0e0f10;
+}
+
+h1 {
+    
+    color: #0e0f10;
+}
+
+p {
+    
+    color: #999;
+}
+
+p.padding {
+    
+    color: #c9c9c9;
+}
+
+p.header {
+    
+    color:#0e0f10;
+}
+
+.center-text  {
+    
+    text-align: center;
+}
+
+p.head-text {
+    color: #0e0f10;
+    font-size: 30px;
+}
+
+
+/*-- Altering things relative to window size --*/
+
+@media (max-width: 767px) {
+    
+    .text-sizing {
+      font-size: 10px;
+      
+    
+    }
+}
+
+@media only screen
+and (min-width: 768px)
+and (max-width: 991px) {
+    
+    .text-sizing {
+      font-size: 14px;
+      
+    
+    }
+}
+
+@media only screen
+and (min-width: 992px)
+and (max-width: 1199px) {
+    
+    .text-sizing {
+      
+      font-size: 12px;
+      
+    
+    }
+}
+
+@media (min-width: 1200px) {
+    
+    .text-sizing {
+      font-size: 14px;
+      
+    
+    }
+}
+
+@media (max-width: 767px) {
+    
+    .head-text-sizing {
+      font-size: 10px;
+      
+    
+    }
+}
+
+@media only screen
+and (min-width: 768px)
+and (max-width: 991px) {
+    
+    .head-text-sizing {
+      font-size: 14px;
+      
+    
+    }
+}
+
+@media only screen
+and (min-width: 992px)
+and (max-width: 1199px) {
+    
+    .head-text-sizing {
+      
+      font-size: 12px;
+      
+    
+    }
+}
+
+@media (min-width: 1200px) {
+    
+    .head-text-sizing {
+      font-size: 14px;
+      
+    
+    }
+}
+/*-- Embeded Font Families --*/
+
+@font-face  {
+    
+    font-family: "Myriad Pro";
+    src: url(fonts/MyriadPro-Regular.otf);
+}
+
+.myriad {
+    
+    font-family: "Myriad Pro";
+}
+
+@font-face  {
+    
+    font-family: "Myriad Pro Condensed";
+    src: url(fonts/MyriadPro-Cond.ttf);
+}
+
+.myriadcond  {
+    
+    font-family: "Myriad Pro Condensed";
+}
+
+@font-face  {
+    
+    font-family: "Myriad Pro Bold Condensed";
+    src: url(fonts/MyriadPro-BoldCond.ttf);
+}
+
+.myriadboldcond  {
+    
+    font-family: "Myriad Pro Bold Condensed";
+}
+
+@font-face  {
+    
+    font-family: "Apple Garamond";
+    src: url(fonts/AppleGaramond.ttf);
+}
+
+.apple  {
+    
+    font-family: "Apple Garamond";
+}
